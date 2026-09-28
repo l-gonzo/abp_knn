@@ -1,0 +1,7 @@
+analisis,condicion,estadistico,p_valor,nota
+Falacia de la exactitud,"11 modelos, 90:10","Spearman rho(accuracy, G-Mean) = -0.636",0.03536512727996379,p bilateral
+Falacia de la exactitud,"11 modelos, 95:5","Spearman rho(accuracy, G-Mean) = -0.575",0.06439919103754915,p bilateral
+Vectores rebeldes,11 rebeldes vs 197,mediana razón de Mahalanobis real/opuesto: 1.009 vs 0.910,0.00030964551102922934,Mann–Whitney unilateral (greater)
+Vectores rebeldes,11 rebeldes vs 197,mediana densidad k-NN: 0.261 vs 0.220,0.9834564224513418,Mann–Whitney unilateral (less)
+Latencia,"One-Step vs CM-KNN y KNN, 90:10 + ruido",0.922 vs 4.157 vs 0.0094 ms (−78 % vs CM-KNN),0.0009765625,Wilcoxon One-Step < CM-KNN
+Latencia,"One-Step vs CM-KNN y KNN, Original",2.679 vs 18.599 vs 0.0152 ms (−86 % vs CM-KNN),0.0009765625,Wilcoxon One-Step < CM-KNN

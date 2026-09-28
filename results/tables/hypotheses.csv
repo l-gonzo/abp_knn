@@ -1,0 +1,9 @@
+escenario,criterio,referencia,valor_referencia,valor_direct_cs,reduccion,meta,p_valor,cumple,decision_escenario
+90:10,(a) TMC,KNN (k=5),206.16181818181823,101.79484848484852,0.5062381124565287,reducción ≥ 30% y p < 0.05,0.0009765625,True,Se acepta
+90:10,(a) TMC,CM-KNN,200.6172727272728,101.79484848484852,0.49259180378135964,reducción ≥ 30% y p < 0.05,0.0009765625,True,Se acepta
+90:10,(a) TMC,One-Step KNN,204.2727272727273,101.79484848484852,0.5016718587746625,reducción ≥ 30% y p < 0.05,0.0009765625,True,Se acepta
+90:10,(b) Sensibilidad,umbral absoluto,,0.6833333333333333,,≥ 0.60,,True,Se acepta
+95:5,(a) TMC,KNN (k=5),104.1768181818182,81.26808080808082,0.2199024482947359,reducción ≥ 30% y p < 0.05,0.0068359375,False,Se rechaza
+95:5,(a) TMC,CM-KNN,102.13636363636364,81.26808080808082,0.2043178559066408,reducción ≥ 30% y p < 0.05,0.0185546875,False,Se rechaza
+95:5,(a) TMC,One-Step KNN,104.00000000000004,81.26808080808082,0.21857614607614623,reducción ≥ 30% y p < 0.05,0.009765625,False,Se rechaza
+95:5,(b) Sensibilidad,umbral absoluto,,0.5166666666666667,,≥ 0.60,,False,Se rechaza
